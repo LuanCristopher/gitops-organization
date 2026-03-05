@@ -29,9 +29,10 @@ kubectl get pods -n argocd -w
 
 ```
 
-```bash
 Passo 2: Criar a Estrutura de Diretórios (Script 1)
 Clone este repositório vazio na máquina, abra o terminal na raiz do repositório e rode o script abaixo para montar a árvore de pastas e arquivos vazios.
+
+```bash
 
 #!/bin/bash
 echo "Criando a estrutura de diretórios Kustomize..."
