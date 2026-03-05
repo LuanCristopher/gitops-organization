@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app1
+spec:
+  replicas: 1
+  template:
+    spec:
+      containers:
+      - name: app1
+        image: "{{REGISTRY_URL}}/app1:{{TAG_DA_IMAGEM_dev}}"

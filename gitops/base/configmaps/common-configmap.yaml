@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: common-config
+  namespace: "{{NAMESPACE_APPS}}"
+data:
+  COMPANY_NAME: "{{NOME_DO_CLIENTE}}"
+  ENVIRONMENT: "global"

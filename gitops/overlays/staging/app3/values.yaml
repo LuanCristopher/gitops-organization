@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app3
+spec:
+  replicas: 2
+  template:
+    spec:
+      containers:
+      - name: app3
+        image: "{{REGISTRY_URL}}/app3:{{TAG_DA_IMAGEM_staging}}"
