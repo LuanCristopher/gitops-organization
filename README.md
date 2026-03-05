@@ -278,9 +278,10 @@ git push origin main
 
 ```
 
-```bash
 Passo 4: Conectar o ArgoCD ao Repositório (Application CRD)
 Agora que os arquivos estão no GitHub, precisamos dizer ao ArgoCD para olhar para a nossa pasta overlays/production (ou dev/staging) e aplicar as mudanças no cluster.
+
+```bash
 
 Crie um arquivo chamado argocd-app-production.yaml na sua máquina local com o conteúdo abaixo:
 
