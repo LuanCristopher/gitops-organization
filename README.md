@@ -63,11 +63,11 @@ echo "✅ Estrutura criada com sucesso!"
 
 ```
 
-
-```bash
 Passo 3: Preencher os Manifestos (Script 2)
 Rode o script abaixo para injetar o código YAML dentro dos arquivos recém-criados.
 Atenção: Após rodar este script, faça uma busca no seu editor pelas variáveis como {{NOME_DO_CLIENTE}}, {{URL_DO_REPO}} etc., e substitua pelos dados reais do projeto do cliente.
+
+```bash
 
 #!/bin/bash
 echo "Preenchendo os arquivos do Template GitOps..."
